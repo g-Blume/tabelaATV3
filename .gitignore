@@ -1,1 +1,76 @@
-/atividade3.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 3</title>
+</head>
+<style>
+    td{
+        width: 100px;
+    }
+    table{
+        width: 500px; height: 300px;
+    }
+</style>
+<body>
+    <table border="1">
+        <tr>
+            <td colspan="3"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td ></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+<br>
+<table border="1">
+    <tr>
+        <td rowspan="3"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td ></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+<br>
+<table border="1">
+    <tr>
+        <td colspan="5"></td>
+    </tr>
+    <tr>
+        <td rowspan="4"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td rowspan="2"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td colspan="3"></td>
+        <td></td>
+</table>
+</body>
+</html>
